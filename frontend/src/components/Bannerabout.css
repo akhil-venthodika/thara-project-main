@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Sora:100,200,300,regular,500,600,700,800');
+
+.outterdiv {
+    background: var(--BG-g1, linear-gradient(283deg, #B048FF -174.56%, rgba(145, 0, 255, 0.00) 109.23%));
+    background-size: cover; 
+    display: flex;
+    max-width: 100%;
+    padding: 90px 70px;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+
+
+
+.sdivrow  p {
+    color: #8F8F8F;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+
+
+}
+
+.sdivrow  h1 {
+    color: #151515;
+    font-family: 'Sora', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 38.4px;
+    letter-spacing: 0.5px;
+    white-space: nowrap; 
+
+}
+
+.underlinn {
+    stroke: #450079;
+    stroke-width: 3px;
+    height: 36.909px;
+    width: 301.442px;
+    gap: 50px; 
+}
+
+.sectiondiv {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+}
+
+.innerdiv {
+    color: #151515;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%; 
+}
+
+.innerdiv2 {
+    position: absolute;
+    bottom: 90.403px;
+    width: 361.323px;
+    right: 150.534px;
+    height: 525.167px;
+    z-index: -3;
+}
+
+.imgsvg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
